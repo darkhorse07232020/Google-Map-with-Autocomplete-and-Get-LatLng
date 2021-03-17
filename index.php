@@ -102,7 +102,7 @@ if (isset($_REQUEST['address'])) {
     </div>
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDH1-nya9mZdJpxk2UMZvFh6eXTYb3vQFM&callback=initAutocomplete&libraries=places&v=weekly"
+      src="https://maps.googleapis.com/maps/api/js?key=Your_API_KEY&callback=initAutocomplete&libraries=places&v=weekly"
       async
     ></script>
   </body>
